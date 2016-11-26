@@ -7,8 +7,8 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 
 var config = {
-    user: 'postgres',
-    database: 'demo',
+    user: 'priyanka-raju',
+    database: 'priyanka-raju',
     host: 'localhost',
     port: '5432',
     password: 'jayasurya',
@@ -67,7 +67,7 @@ function createProfile (){
     <div class="container">
       <div class="row">
       <div class="col-lg-4 well well-lg">
-        <img src="img/priyanka.jpg" class="img-responsive">
+        <img src="images/priyanka.jpg" class="img-responsive">
         <p><h4>&nbsp;&nbsp;Priyanka Raju</h4></p>
         <p><h4>&nbsp;&nbsp;Student</h4></p>
         <p><h4>&nbsp;&nbsp;Coimbatore, Tamilnadu</h4></p>
