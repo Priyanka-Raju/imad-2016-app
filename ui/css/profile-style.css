@@ -1,0 +1,31 @@
+.shadow{
+    box-shadow: 1px 5px 10px #888888;
+}
+
+.header{
+    background: #272727;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 25px;
+    border-bottom: 15px solid #fff;
+    color: #FFF;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.work{
+  padding: 5px 20px;
+  }
+
+  .footer-info{
+  	background-color:#181717;
+  	padding-top:15px;
+  }
+
+  .footer-info p{
+  	color:#959595;
+  }
