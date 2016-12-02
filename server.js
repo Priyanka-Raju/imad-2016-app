@@ -600,6 +600,11 @@ app.get('/about/js/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/js', req.params.fileName));
 });
 
+app.get('images/sarees.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/images', 'sarees.jpg'));
+});
+
+
 //cat-1
 app.get('/cat1', function (req, res) {
   	pool.query("SELECT * FROM article WHERE category = 'Traditional-Wear' ORDER BY date DESC LIMIT 1", function (err, result) {
