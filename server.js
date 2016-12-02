@@ -605,7 +605,8 @@ app.get('/images/sarees.jpg', function (req, res) {
 });
 
 app.get('/images/kurtas.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/images', 'kurtas.jpg'));
+ // res.sendFile(path.join(__dirname, 'ui/images', 'kurtas.jpg'));
+ res.send('Testing');
 });
 
 
