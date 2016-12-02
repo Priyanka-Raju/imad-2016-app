@@ -152,7 +152,7 @@ function loadCat1 () {
                     content += `<h3><a href="/category/${articleData[i].category}">${articleData[i].category}</a></h3>
       </div>
 	  
-	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="images/one.jpg" class="img-responsive post-img">
+	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="${articleData[i].img}" class="img-responsive post-img">
         <div class="post-date-2"> <a href="/articles/${articleData[i].title}">${articleData[i].date.split('T')[0]}</a> </div>
         <div class="hover-cat">${articleData[i].category}</div>
         <div class="post-head"> <a href="/articles/${articleData[i].title}">
@@ -190,7 +190,7 @@ function loadCat2 () {
                     content += `<h3><a href="/category/${articleData[i].category}">${articleData[i].category}</a></h3>
       </div>
 	  
-	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="images/one.jpg" class="img-responsive post-img">
+	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="${articleData[i].img}" class="img-responsive post-img">
         <div class="post-date"> <a href="/articles/${articleData[i].title}">${articleData[i].date.split('T')[0]}</a> </div>
         <div class="hover-cat">${articleData[i].category}</div>
         <div class="post-head"> <a href="/articles/${articleData[i].title}">
@@ -227,7 +227,7 @@ function loadCat3 () {
                 var articleData = JSON.parse(this.responseText);
                 for (var i=0; i< articleData.length; i++) {
                  content += `<div class="col-lg-12 rel-link no-padding col-md-12 col-sm-12 col-xs-12">
-					<div class="col-lg-3 no-padding col-md-3 col-sm-3 col-xs-3"> <img src="images/three.jpg" class="img-responsive"> </div>
+					<div class="col-lg-3 no-padding col-md-3 col-sm-3 col-xs-3"> <img src="${articleData[i].img}" class="img-responsive"> </div>
         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
           <p class="post-head"><a href="/articles/${articleData[i].title}">${articleData[i].heading}</a></p>
         </div>	  
@@ -258,7 +258,7 @@ function loadCat4 () {
                 var articleData = JSON.parse(this.responseText);
                 for (var i=0; i< articleData.length; i++) {
                     content += `<div class="col-lg-12 rel-link no-padding col-md-12 col-sm-12 col-xs-12">
-					<div class="col-lg-3 no-padding col-md-3 col-sm-3 col-xs-3"> <img src="images/four.jpg" class="img-responsive"> </div>
+					<div class="col-lg-3 no-padding col-md-3 col-sm-3 col-xs-3"> <img src="${articleData[i].img}" class="img-responsive"> </div>
         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
           <p class="post-head"><a href="/articles/${articleData[i].title}">${articleData[i].heading}</a></p>
         </div>	  
@@ -290,7 +290,7 @@ function loadCat5 () {
                     content += `<h3><a href="/category/${articleData[i].category}">${articleData[i].category}</a></h3>
       </div>
 	  
-	   <div class="col-lg-6 no-padding col-md-6 col-sm-12 col-xs-12"> <img src="images/one.jpg" class="img-responsive post-img">
+	   <div class="col-lg-6 no-padding col-md-6 col-sm-12 col-xs-12"> <img src="${articleData[i].img}" class="img-responsive post-img">
         <div class="post-date"> <a href="/articles/${articleData[i].title}">${articleData[i].date.split('T')[0]}</a> </div>
         <div class="hover-cat">${articleData[i].category}</div>
         <div class="post-head"> <a href="/articles/${articleData[i].title}">
@@ -325,7 +325,7 @@ function loadCat6 () {
                 var content = '';
                 var articleData = JSON.parse(this.responseText);
                 for (var i=0; i< articleData.length; i++) {
-                    content += `<div class="col-lg-3 no-padding pad-bot-10 col-md-3 col-sm-3 col-xs-3"> <img src="images/five.jpg" class="img-responsive img-90"> </div>
+                    content += `<div class="col-lg-3 no-padding pad-bot-10 col-md-3 col-sm-3 col-xs-3"> <img src="${articleData[i].img}" class="img-responsive img-90"> </div>
         <!--Content-->
         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9"> <a href="/articles/${articleData[i].title}" class="post-link">${articleData[i].heading}<br>
           ${articleData[i].date.split('T')[0]}</a> </div>
@@ -358,7 +358,7 @@ function loadCat7 () {
                     content += `<h3><a href="/category/${articleData[i].category}">${articleData[i].category}</a></h3>
       </div>
 	  
-	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="images/one.jpg" class="img-responsive post-img">
+	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="${articleData[i].img}" class="img-responsive post-img">
         <div class="post-date"> <a href="/articles/${articleData[i].title}">${articleData[i].date.split('T')[0]}</a> </div>
         <div class="hover-cat">${articleData[i].category}</div>
         <div class="post-head"> <a href="/articles/${articleData[i].title}">
@@ -396,7 +396,7 @@ function loadCat8 () {
                     content += `<h3><a href="/category/${articleData[i].category}">${articleData[i].category}</a></h3>
       </div>
 	  
-	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="images/one.jpg" class="img-responsive post-img">
+	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="${articleData[i].img}" class="img-responsive post-img">
         <div class="post-date"> <a href="/articles/${articleData[i].title}">${articleData[i].date.split('T')[0]}</a> </div>
         <div class="hover-cat">${articleData[i].category}</div>
         <div class="post-head"> <a href="/articles/${articleData[i].title}">
@@ -433,7 +433,7 @@ function loadCat9 () {
                 for (var i=0; i< articleData.length; i++) {
                     content += `
 	  
-	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="images/one.jpg" class="img-responsive post-img">
+	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="${articleData[i].img}" class="img-responsive post-img">
         <div class="post-date"> <a href="/articles/${articleData[i].title}">${articleData[i].date.split('T')[0]}</a> </div>
         <div class="hover-cat">${articleData[i].category}</div>
         <div class="post-head"> <a href="/articles/${articleData[i].title}">
@@ -470,7 +470,7 @@ function loadCat10 () {
                 for (var i=0; i< articleData.length; i++) {
                     content += `
 	  
-	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="images/one.jpg" class="img-responsive post-img">
+	   <div class="col-lg-12 no-padding col-md-12 col-sm-12 col-xs-12"> <img src="${articleData[i].img}" class="img-responsive post-img">
         <div class="post-date"> <a href="/articles/${articleData[i].title}">${articleData[i].date.split('T')[0]}</a> </div>
         <div class="hover-cat">${articleData[i].category}</div>
         <div class="post-head"> <a href="/articles/${articleData[i].title}">
@@ -627,7 +627,7 @@ function loadCategory () {
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<h3>${articleData[i].heading}</h3>
 				<div align="center" class="pad-bot-10">
-				<img src="images/one.jpg" class="img-responsive">
+				<img src="${articleData[i].img}" class="img-responsive">
 				</div>
 				<div class="para">${articleData[i].content.substring(3, 150)}
 				  <a href="/articles/${articleData[i].title}"><p style="text-align:right !important;"> View more</p></a>		
