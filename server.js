@@ -609,11 +609,11 @@ app.get('/testing', function (req, res) {
  //res.send('Testing');
 });
 
-app.get('/ui/:fileName', function (req, res) {
+app.get('/images/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
 });
 
-app.get('/images/:fileName', function (req, res) {
+app.get('/image/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/images', req.params.fileName));
 });
 
