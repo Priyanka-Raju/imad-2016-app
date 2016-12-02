@@ -572,6 +572,10 @@ app.get('/css/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/css', req.params.fileName));
 });
 
+app.get('/css/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/css', 'style.css'));
+});
+
 app.get('/js/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/js', req.params.fileName));
 });
