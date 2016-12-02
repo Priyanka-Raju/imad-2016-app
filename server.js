@@ -620,7 +620,7 @@ app.get('/cat2', function (req, res) {
 
 //cat-3
 app.get('/cat3', function (req, res) {
-  	pool.query("SELECT * FROM article WHERE category = 'Sports' ORDER BY date ASC LIMIT 2", function (err, result) {
+  	pool.query("SELECT * FROM article WHERE category = 'Traditional-Wear' ORDER BY date ASC LIMIT 2", function (err, result) {
       if (err) {
           res.status(500).send(err.toString());
       } else {
