@@ -609,7 +609,7 @@ app.get('/cat1', function (req, res) {
 
 //cat-2
 app.get('/cat2', function (req, res) {
-  	pool.query("SELECT * FROM article WHERE category = 'Business' ORDER BY date DESC LIMIT 1", function (err, result) {
+  	pool.query("SELECT * FROM article WHERE category = 'Fashion-Accessories' ORDER BY date DESC LIMIT 1", function (err, result) {
       if (err) {
           res.status(500).send(err.toString());
       } else {
@@ -631,7 +631,7 @@ app.get('/cat3', function (req, res) {
 
 //cat-4
 app.get('/cat4', function (req, res) {
-  	pool.query("SELECT * FROM article WHERE category = 'Business' ORDER BY date ASC LIMIT 2", function (err, result) {
+  	pool.query("SELECT * FROM article WHERE category = 'Fashion-Accessories' ORDER BY date ASC LIMIT 2", function (err, result) {
       if (err) {
           res.status(500).send(err.toString());
       } else {
