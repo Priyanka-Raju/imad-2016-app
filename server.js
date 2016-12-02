@@ -600,7 +600,7 @@ app.get('/about/js/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/js', req.params.fileName));
 });
 
-app.get('images/sarees.jpg', function (req, res) {
+app.get('/images/sarees.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/images', 'sarees.jpg'));
 });
 
