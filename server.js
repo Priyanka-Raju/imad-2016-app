@@ -613,6 +613,10 @@ app.get('/ui/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
 });
 
+app.get('/ui/images/:fileName', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/images', req.params.fileName));
+});
+
 //cat-1
 app.get('/cat1', function (req, res) {
   	pool.query("SELECT * FROM article WHERE category = 'Traditional-Wear' ORDER BY date DESC LIMIT 1", function (err, result) {
