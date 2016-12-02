@@ -614,7 +614,7 @@ app.get('/ui/:fileName', function (req, res) {
 });
 
 app.get('/ui/images/:fileName', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/images', req.params.fileName));
+  res.sendFile(path.join(__dirname, 'ui/images/', req.params.fileName));
 });
 
 //cat-1
