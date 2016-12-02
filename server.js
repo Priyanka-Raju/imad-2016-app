@@ -613,6 +613,7 @@ app.get('/ui/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
 });
 
+//Corrected
 app.get('/images/test/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/images/test', req.params.fileName));
 });
