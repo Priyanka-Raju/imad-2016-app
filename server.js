@@ -11,7 +11,7 @@ var config = {
     database: 'priyanka-raju',
     host: 'db.imad.hasura-app.io',
     port: '5432',
-    password: process.env.DB_PASSWORD
+    password: 'db-priyanka-raju-74755'
 };
 
 var app = express();
