@@ -613,8 +613,8 @@ app.get('/ui/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
 });
 
-app.get('/image/:fileName', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/images', req.params.fileName));
+app.get('/image/test/:fileName', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/images/test', req.params.fileName));
 });
 
 //cat-1
