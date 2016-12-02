@@ -604,7 +604,7 @@ app.get('/images/sarees.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/images', 'sarees.jpg'));
 });
 
-app.get('/images/kurtas.jpg', function (req, res) {
+app.get('/testing', function (req, res) {
  // res.sendFile(path.join(__dirname, 'ui/images', 'kurtas.jpg'));
  res.send('Testing');
 });
