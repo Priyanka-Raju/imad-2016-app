@@ -664,7 +664,7 @@ app.get('/cat6', function (req, res) {
 
 //cat-7
 app.get('/cat7', function (req, res) {
-  	pool.query("SELECT * FROM article WHERE category = 'Sports' ORDER BY RANDOM() LIMIT 1", function (err, result) {
+  	pool.query("SELECT * FROM article WHERE category = 'Fitness' ORDER BY RANDOM() LIMIT 1", function (err, result) {
       if (err) {
           res.status(500).send(err.toString());
       } else {
@@ -686,7 +686,7 @@ app.get('/cat8', function (req, res) {
 
 //cat-9
 app.get('/cat9', function (req, res) {
-  	pool.query("SELECT * FROM article WHERE category = 'Sports' ORDER BY date DESC LIMIT 1", function (err, result) {
+  	pool.query("SELECT * FROM article WHERE category = 'Fitness' ORDER BY date DESC LIMIT 1", function (err, result) {
       if (err) {
           res.status(500).send(err.toString());
       } else {
