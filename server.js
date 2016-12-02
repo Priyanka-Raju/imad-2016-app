@@ -675,7 +675,7 @@ app.get('/cat7', function (req, res) {
 
 //cat-8
 app.get('/cat8', function (req, res) {
-  	pool.query("SELECT * FROM article WHERE category = 'Sports' ORDER BY date ASC LIMIT 1", function (err, result) {
+  	pool.query("SELECT * FROM article WHERE category = 'North-Indian-Accessories' ORDER BY date ASC LIMIT 1", function (err, result) {
       if (err) {
           res.status(500).send(err.toString());
       } else {
@@ -697,7 +697,7 @@ app.get('/cat9', function (req, res) {
 
 //cat-10
 app.get('/cat10', function (req, res) {
-  	pool.query("SELECT * FROM article WHERE category = 'Sports' ORDER BY RANDOM() LIMIT 1", function (err, result) {
+  	pool.query("SELECT * FROM article WHERE category = 'North-Indian-Accessories' ORDER BY RANDOM() LIMIT 1", function (err, result) {
       if (err) {
           res.status(500).send(err.toString());
       } else {
