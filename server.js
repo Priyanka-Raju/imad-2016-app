@@ -598,7 +598,7 @@ app.get('/about/js/:fileName', function (req, res) {
 
 //cat-1
 app.get('/cat1', function (req, res) {
-  	pool.query("SELECT * FROM article WHERE category = 'Sports' ORDER BY date DESC LIMIT 1", function (err, result) {
+  	pool.query("SELECT * FROM article WHERE category = 'Traditional-Wear' ORDER BY date DESC LIMIT 1", function (err, result) {
       if (err) {
           res.status(500).send(err.toString());
       } else {
