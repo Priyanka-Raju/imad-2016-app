@@ -609,6 +609,9 @@ app.get('/testing', function (req, res) {
  //res.send('Testing');
 });
 
+app.get('/ui/:fileName', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
+});
 
 //cat-1
 app.get('/cat1', function (req, res) {
