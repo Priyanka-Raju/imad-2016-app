@@ -292,7 +292,7 @@ function createCategory (){
         <div id="home" class="tab-pane fade in active pad-top-25">
           <div class="col-lg-12 profile col-md-12 col-sm-12 col-xs-12">
             <div class="profile-bg">
-              <div align="center"> <img src="/images/test/profile.jpg"> </div>
+              <div align="center"> <img src="/images/test/priyanka.jpg"> </div>
             </div>
             <div align="center" class="profile-info">
               <h3>Priyanka</h3>
@@ -469,7 +469,7 @@ function createTemplate (data) {
         <div id="home" class="tab-pane fade in active pad-top-25">
           <div class="col-lg-12 profile col-md-12 col-sm-12 col-xs-12">
             <div class="profile-bg">
-              <div align="center"> <img src="/images/test/profile.jpg"> </div>
+              <div align="center"> <img src="/images/test/priyanka.jpg"> </div>
             </div>
             <div align="center" class="profile-info">
               <h3>Priyanka</h3>
