@@ -301,7 +301,7 @@ function createCategory (){
             </div>
           </div>
         </div>
-        <div id="menu1" class="tab-pane fade pad-top-twitter"> <a class="twitter-timeline" data-width="100%" data-height="250" href="https://twitter.com/s_jayasurya">Tweets by s_jayasurya</a> <script async src="//<strong>platform.twitter.com/widgets.js</strong>" charset="utf-8"></script>
+        <div id="menu1" class="tab-pane fade pad-top-twitter"> <a class="twitter-timeline" data-width="100%" data-height="250" href="https://twitter.com/priyankaraju5">Tweets by priyanka</a> <script async src="//<strong>platform.twitter.com/widgets.js</strong>" charset="utf-8"></script>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
         <div id="menu2" class="tab-pane fade pad-top-25">
@@ -355,7 +355,7 @@ function createCategory (){
             <div class="cat-title">
 	            <h3><a href="#" style="color:#959595;">Follow Me</a></h3>
             </div>
-            <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/s_jayasurya">Tweets by s_jayasurya</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/priyankaraju5">Tweets by priyanka</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
 
@@ -478,7 +478,7 @@ function createTemplate (data) {
             </div>
           </div>
         </div>
-        <div id="menu1" class="tab-pane fade pad-top-twitter"> <a class="twitter-timeline" data-width="100%" data-height="250" href="https://twitter.com/s_jayasurya">Tweets by s_jayasurya</a> <script async src="//<strong>platform.twitter.com/widgets.js</strong>" charset="utf-8"></script>
+        <div id="menu1" class="tab-pane fade pad-top-twitter"> <a class="twitter-timeline" data-width="100%" data-height="250" href="https://twitter.com/priyankaraju5">Tweets by priyanka</a> <script async src="//<strong>platform.twitter.com/widgets.js</strong>" charset="utf-8"></script>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
         <div id="menu2" class="tab-pane fade pad-top-25">
@@ -532,7 +532,7 @@ function createTemplate (data) {
             <div class="cat-title">
 	            <h3><a href="#" style="color:#959595;">Follow Me</a></h3>
             </div>
-            <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/s_jayasurya">Tweets by s_jayasurya</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/priyankaraju5">Tweets by priyanka</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
 
