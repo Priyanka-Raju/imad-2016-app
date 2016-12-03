@@ -292,11 +292,11 @@ function createCategory (){
         <div id="home" class="tab-pane fade in active pad-top-25">
           <div class="col-lg-12 profile col-md-12 col-sm-12 col-xs-12">
             <div class="profile-bg">
-              <div align="center"> <img src="images/profile.jpg"> </div>
+              <div align="center"> <img src="/images/profile.jpg"> </div>
             </div>
             <div align="center" class="profile-info">
               <h3>Priyanka</h3>
-              <p>Hi, My name Is Priyanka Acharya.I like CSS, but Im a No PRO...Still Learning About It Everday!. I simply love to play with the codes and do interesting things with it.
+              <p>Hi all, I am priyanka.R pursing Msc.Software systems, deliberately fascinated towards technie assets, my confidence and destined dreams would lead me to places. Not a professionalist basically but sturdy and voracious chase towards accomplishing it. Eventually I would like to make my events a revealing one for the other techno folks and to learn from it.
                 View my complete profile</p>
             </div>
           </div>
@@ -340,7 +340,7 @@ function createCategory (){
             <div class="cat-title">
             	<h3><a href="#" style="color:#959595;">About Me</a></h3>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit lacus in leo gravida fringilla. Donec ullamcorper sapien a massa sollicitudin, ut dignissim nisl bibendum. Morbi tempus orci id neque iaculis congue.</p>
+            <p>Hi all, I am priyanka.R pursing Msc.Software systems, deliberately fascinated towards technie assets, my confidence and destined dreams would lead me to places. Not a professionalist basically but sturdy and voracious chase towards accomplishing it. Eventually I would like to make my events a revealing one for the other techno folks and to learn from it.</p>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -469,11 +469,11 @@ function createTemplate (data) {
         <div id="home" class="tab-pane fade in active pad-top-25">
           <div class="col-lg-12 profile col-md-12 col-sm-12 col-xs-12">
             <div class="profile-bg">
-              <div align="center"> <img src="images/profile.jpg"> </div>
+              <div align="center"> <img src="/images/test/profile.jpg"> </div>
             </div>
             <div align="center" class="profile-info">
               <h3>Priyanka</h3>
-              <p>Hi, My name Is Priyanka Acharya.I like CSS, but Im a No PRO...Still Learning About It Everday!. I simply love to play with the codes and do interesting things with it.
+              <p>Hi all, I am priyanka.R pursing Msc.Software systems, deliberately fascinated towards technie assets, my confidence and destined dreams would lead me to places. Not a professionalist basically but sturdy and voracious chase towards accomplishing it.Eventually I would like to make my events a revealing one for the other techno folks and to learn from it.
                 View my complete profile</p>
             </div>
           </div>
@@ -517,7 +517,7 @@ function createTemplate (data) {
             <div class="cat-title">
             	<h3><a href="#" style="color:#959595;">About Me</a></h3>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit lacus in leo gravida fringilla. Donec ullamcorper sapien a massa sollicitudin, ut dignissim nisl bibendum. Morbi tempus orci id neque iaculis congue.</p>
+            <p>Hi all, I am priyanka.R pursing Msc.Software systems, deliberately fascinated towards technie assets, my confidence and destined dreams would lead me to places. Not a professionalist basically but sturdy and voracious chase towards accomplishing it. Eventually I would like to make my events a revealing one for the other techno folks and to learn from it.</p>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
