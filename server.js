@@ -292,12 +292,12 @@ function createCategory (){
         <div id="home" class="tab-pane fade in active pad-top-25">
           <div class="col-lg-12 profile col-md-12 col-sm-12 col-xs-12">
             <div class="profile-bg">
-              <div align="center"> <img src="/images/profile.jpg"> </div>
+              <div align="center"> <img src="/images/test/profile.jpg"> </div>
             </div>
             <div align="center" class="profile-info">
               <h3>Priyanka</h3>
               <p>Hi all, I am priyanka.R pursing Msc.Software systems, deliberately fascinated towards technie assets, my confidence and destined dreams would lead me to places. Not a professionalist basically but sturdy and voracious chase towards accomplishing it. Eventually I would like to make my events a revealing one for the other techno folks and to learn from it.
-                View my complete profile</p>
+                <a href="/about/profile">View my complete profile</a></p>
             </div>
           </div>
         </div>
