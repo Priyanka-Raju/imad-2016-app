@@ -393,6 +393,7 @@ function createTemplate (data) {
     var date = data.date;
     var heading = data.heading;
     var content = data.content;
+    var img = data.img;
     
     var htmlTemplate = `
 	<!doctype html>
@@ -444,7 +445,7 @@ function createTemplate (data) {
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
       		<h3>${heading}</h3>
 			<div align="center" class="pad-bot-10">
-            <img src="images/one.jpg" class="img-responsive">
+            <img src="${img}" class="img-responsive">
             </div>
 			<div class="para">${content}</div>
 			
