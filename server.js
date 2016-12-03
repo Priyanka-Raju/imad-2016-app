@@ -82,7 +82,7 @@ function createProfile (){
     <div class="container">
       <div class="row">
       <div class="col-lg-4 well well-lg">
-        <img src="images/test/priyanka.jpg" class="img-responsive">
+        <img src="/images/test/priyanka.jpg" class="img-responsive">
         <p><h4>&nbsp;&nbsp;Priyanka Raju</h4></p>
         <p><h4>&nbsp;&nbsp;Student</h4></p>
         <p><h4>&nbsp;&nbsp;Coimbatore, Tamilnadu</h4></p>
