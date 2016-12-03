@@ -297,7 +297,7 @@ function createCategory (){
             <div align="center" class="profile-info">
               <h3>Priyanka</h3>
               <p>Hi all, I am priyanka.R pursing Msc.Software systems, deliberately fascinated towards technie assets, my confidence and destined dreams would lead me to places. Not a professionalist basically but sturdy and voracious chase towards accomplishing it. Eventually I would like to make my events a revealing one for the other techno folks and to learn from it.
-                <a href="/about/profile">View my complete profile</a></p>
+                View <a href="/about/profile">my complete profile</a></p>
             </div>
           </div>
         </div>
@@ -474,7 +474,7 @@ function createTemplate (data) {
             <div align="center" class="profile-info">
               <h3>Priyanka</h3>
               <p>Hi all, I am priyanka.R pursing Msc.Software systems, deliberately fascinated towards technie assets, my confidence and destined dreams would lead me to places. Not a professionalist basically but sturdy and voracious chase towards accomplishing it.Eventually I would like to make my events a revealing one for the other techno folks and to learn from it.
-                View my complete profile</p>
+                View <a href="/about/profile">my complete profile</a></p>
             </div>
           </div>
         </div>
