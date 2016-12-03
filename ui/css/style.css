@@ -491,4 +491,12 @@ a:hover{
     display: none ;
 }
 
+.cat-title h3 {
+    line-height: 38px;
+}
+h3 {
+    font-size: 14px;
+}
+
+
 }
