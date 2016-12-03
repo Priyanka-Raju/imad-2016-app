@@ -261,8 +261,6 @@ function createCategory (){
 </div>
 <!--HEader Ends Here-->
 
-<div class="container-fluid line">
-</div>
 
   <div class="container">
   <!--Col-8 Starts here-->
@@ -429,9 +427,6 @@ function createTemplate (data) {
     </div>
 </div>
 <!--HEader Ends Here-->
-
-<div class="container-fluid line">
-</div>
 
   <div class="container">
   <!--Col-8 Starts here-->
