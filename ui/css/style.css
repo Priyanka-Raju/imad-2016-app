@@ -482,3 +482,13 @@ a:hover{
     border-width: thick !important;
 }	
 }
+
+
+/*Mobile View*/
+@media only screen and (max-width: 680px) {
+
+.hover-cat {
+    display: none ;
+}
+
+}
